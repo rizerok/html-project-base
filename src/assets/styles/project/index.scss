@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #9499ff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.block {
+  margin: 20px;
+}
+
+#component4 {
+  width: 200px;
+  height: 200px;
+  background: url('~img/success.jpg');
+}
+
+#component5 {
+  width: 200px;
+  height: 200px;
+  background: url('~img/webpack.svg');
+}
+
+#component6 {
+  width: 100px;
+  height: 100px;
+}

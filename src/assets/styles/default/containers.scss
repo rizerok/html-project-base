@@ -1,0 +1,12 @@
+.cnr-main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $screen-indents;
+  padding-right: $screen-indents;
+  max-width: $site-max-width;
+  @media(max-width:$breakpoints-md) {
+    padding-left: $screen-indents-mobile;
+    padding-right: $screen-indents-mobile;
+  }
+}
