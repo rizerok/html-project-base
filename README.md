@@ -4,6 +4,6 @@ base for simplest projects.
 2. pug
 3. scss
 4. live reload, HMR
-5. eslint, prettier, stylelint
-6. husky
+5. eslint, stylelint + prettier
+6. husky + lint-stage + commitlint
 7. 

@@ -1,0 +1,4 @@
+{
+  "*.(js|jsx)": ["eslint \"./src/**/**.js\""],
+  "*.(scss)": ["stylelint \"./src/assets/styles/**/**.scss\""]
+}
