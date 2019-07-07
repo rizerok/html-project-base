@@ -19,6 +19,7 @@
     "no-empty": "off",
     "no-constant-condition": "off",
     "no-useless-constructor": "off",
+    "no-console": "off",
     // usually
     "indent": ["error", 4],
     "comma-dangle": ["error", "never"],
@@ -34,6 +35,7 @@
     }],
     "space-before-blocks": "error",
     "func-names": "error",
-    "arrow-spacing": "error"
+    "arrow-spacing": "error",
+    "arrow-parens": "off"
   }
 }
