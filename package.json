@@ -7,7 +7,10 @@
     "build": "webpack",
     "watch": "webpack-dev-server --progress",
     "lint": "eslint \"./src/**/**.js\" && stylelint \"./src/assets/styles/**/**.scss\"",
-    "lint:fix": "eslint \"./src/**/**.js\" --fix && stylelint \"./src/assets/styles/**/**.scss\" --fix"
+    "lint:fix": "eslint \"./src/**/**.js\" --fix && stylelint \"./src/assets/styles/**/**.scss\" --fix",
+    "deploy-stage": "node deploy stage",
+    "deploy-stage: force": "node deploy stage force",
+    "server-setup": "node deploy stage init"
   },
   "author": "Alex",
   "license": "ISC",
@@ -18,6 +21,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "commitizen": "^3.1.1",
     "css-loader": "^3.0.0",
+    "dotenv": "^8.0.0",
     "eslint": "^6.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.18.0",
@@ -26,6 +30,7 @@
     "husky": "^3.0.0",
     "lint-staged": "^9.0.0",
     "node-sass": "^4.12.0",
+    "node-ssh": "^6.0.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.18.2",
     "pug": "^2.0.4",

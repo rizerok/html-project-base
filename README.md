@@ -6,4 +6,6 @@ base for simplest projects.
 4. live reload, HMR
 5. eslint, stylelint + prettier
 6. husky + lint-stage + commitlint
-7. 
+7. deploy script
+8. .env
+9. 

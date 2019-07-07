@@ -12,5 +12,3 @@
 
 # MacOS specific files
 .DS_STORE
-
-package-lock.json
