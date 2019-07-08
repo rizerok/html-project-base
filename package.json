@@ -11,7 +11,8 @@
     "lint:fix": "eslint \"**/**.js\" --fix && stylelint \"./src/assets/styles/**/**.scss\" --fix",
     "deploy-stage": "node deploy stage",
     "deploy-stage: force": "node deploy stage force",
-    "server-setup": "node deploy stage init"
+    "server-setup": "node deploy stage init",
+    "commit": "git-cz"
   },
   "author": "Alex",
   "license": "ISC",
