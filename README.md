@@ -10,4 +10,5 @@ base for simplest projects.
 6. husky + lint-stage + commitlint
 7. deploy script
 8. .env
-9. 
+9. editorconfig
+10. babel
