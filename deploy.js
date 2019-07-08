@@ -84,8 +84,11 @@ const deploy = async confType => {
 };
 
 const deployForce = async confType => {
-  await connectServer(confType);
+  const SSH2Shell = await connectServer(confType);
+  const execShell = await createShell(SSH2Shell);
   await remoteServer.putDirectory('./public', `${config.default.dir}/public`);
+  await execShell(`cd ${config.default.dir}`);
+  await execShell('pm2 start http-server -- -p 80');
   remoteServer.dispose();
 };
 
@@ -119,10 +122,12 @@ const deployInit = async confType => {
   await execShell('npm install pm2 -g');
   // install npm-merge-driver for package-lock.json
   await execShell('npx npm-merge-driver install -g');
+  // install http-server
+  await execShell('npm install http-server -g');
   // setup project
   await execShell(`mkdir -p ${config.default.dir}`);
   await execShell(`cd ${config.default.dir}`);
-  await execShell(`git clone ${config.default.initialRepository} .`);
+  await execShell(`git clone ${config.default.repository} .`);
   await execShell('npm i');
 
   remoteServer.dispose();
