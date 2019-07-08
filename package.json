@@ -1,6 +1,6 @@
 {
   "name": "simple-project-base",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,14 @@
   },
   "author": "Alex",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/rizerok/html-project-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rizerok/html-project-base/issues"
+  },
+  "homepage": "https://github.com/rizerok/html-project-base",
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
