@@ -4,13 +4,13 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
 const config = {
-    mode: 'production',
-    optimization: {
-        minimizer: [new TerserPlugin(), new OptimizeCSSAssetsPlugin({})]
-    },
-    plugins: [
-        new ImageminPlugin()
-    ]
+  mode: 'production',
+  optimization: {
+    minimizer: [new TerserPlugin(), new OptimizeCSSAssetsPlugin({})]
+  },
+  plugins: [
+    new ImageminPlugin()
+  ]
 };
 
 module.exports = config;

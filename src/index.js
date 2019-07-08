@@ -3,19 +3,19 @@ import success from 'img/success.jpg';
 import webpack from 'img/webpack.svg';
 
 function component(msg) {
-    const element = document.createElement('div');
+  const element = document.createElement('div');
 
-    element.innerHTML = msg;
+  element.innerHTML = msg;
 
-    return element;
+  return element;
 }
 
 function imgComponent(msg, imgPath) {
-    const element = document.createElement('div');
+  const element = document.createElement('div');
 
-    element.innerHTML = `<p>${msg}</p> <img src="${imgPath}" alt="${msg}">`;
+  element.innerHTML = `<p>${msg}</p> <img src="${imgPath}" alt="${msg}">`;
 
-    return element;
+  return element;
 }
 
 document.querySelector('#component1').appendChild(component('YOO233'));
