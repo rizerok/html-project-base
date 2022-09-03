@@ -20,19 +20,21 @@ const config = {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    before(app, server) {
-      devServer = server;
-    },
+    // before(app, server) {
+    //   devServer = server;
+    // },
     open: true,
     port: 8000,
-    contentBase: './public',
-    writeToDisk: true,
-    index: 'index.html',
-    hot: true
+    hot: true,
+    devMiddleware: {
+      index: true,
+      writeToDisk: true,
+      publicPath: './public',
+    },
   },
-  plugins: [
-    htmlReloadPlugin
-  ]
+  // plugins: [
+  //   htmlReloadPlugin
+  // ]
 };
 
 module.exports = config;

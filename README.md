@@ -12,3 +12,16 @@ base for simplest projects.
 8. .env
 9. editorconfig
 10. babel
+
+## TODOS
+- [x] update dependencies (03.09.2022)
+- [ ] check hmr
+  - [ ] html
+  - [ ] scss
+  - [ ] js
+- [ ] build tests for every package.json script
+  - [ ] package.json scripts
+  - [ ] HMR
+- [ ] fixes after update dependencies
+  - [ ] css images
+  - [ ] npm run build:prod

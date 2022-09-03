@@ -133,7 +133,6 @@ const deployInit = async confType => {
   remoteServer.dispose();
 };
 
-
 switch (DEPLOYTYPE) {
 case 'force':
   deployForce(CONFIG_TYPE);
