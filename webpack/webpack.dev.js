@@ -29,7 +29,7 @@ const config = {
     devMiddleware: {
       index: true,
       writeToDisk: true,
-      publicPath: './public',
+      publicPath: './public'
     },
   },
   // plugins: [

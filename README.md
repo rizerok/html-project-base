@@ -22,6 +22,6 @@ base for simplest projects.
 - [ ] build tests for every package.json script
   - [ ] package.json scripts
   - [ ] HMR
-- [ ] fixes after update dependencies
-  - [ ] css images
-  - [ ] npm run build:prod
+- [x] fixes after update dependencies
+  - [x] css images
+  - [x] npm run build:prod

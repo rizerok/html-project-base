@@ -32,7 +32,7 @@ const config = {
         include: resolve('src', 'assets', 'styles'),
         use: [
           {
-            loader: MiniCssExtractPlugin.loader,
+            loader: MiniCssExtractPlugin.loader
             // options: {
             //   hmr: process.env.NODE_ENV === 'development'
             // }
@@ -58,9 +58,7 @@ const config = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         include: resolve('src', 'assets', 'images'),
-        use: [
-          'file-loader'
-        ]
+        type: 'asset/resource'
       },
       {
         test: /\.pug$/,
