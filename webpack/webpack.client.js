@@ -32,10 +32,8 @@ const config = {
         include: resolve('src', 'assets', 'styles'),
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
-            // options: {
-            //   hmr: process.env.NODE_ENV === 'development'
-            // }
+            loader: MiniCssExtractPlugin.loader,
+            options: {}
           },
           {
             loader: 'css-loader',

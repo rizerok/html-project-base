@@ -15,10 +15,10 @@ base for simplest projects.
 
 ## TODOS
 - [x] update dependencies (03.09.2022)
-- [ ] check hmr
-  - [ ] html
-  - [ ] scss
-  - [ ] js
+- [x] check hmr & live reloading
+  - [x] html (lr)
+  - [X] scss (hmr)
+  - [x] js (lr)
 - [ ] build tests for every package.json script
   - [ ] package.json scripts
   - [ ] HMR
