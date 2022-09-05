@@ -1,5 +1,5 @@
 {
-  "name": "simple-project-base",
+  "name": "html-base",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rizerok/html-project-base.git"
+    "url": "git@github.com:rizerok/html-project-base.git"
   },
   "bugs": {
     "url": "https://github.com/rizerok/html-project-base/issues"
